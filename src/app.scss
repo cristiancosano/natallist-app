@@ -1,0 +1,26 @@
+$primary: #864f9d;
+$info:    #26243a;
+$success: #5d9267;
+$warning: #db822f;
+$danger:  #f44336;
+
+
+$white: #ffffff;
+
+$theme-colors: (
+        "light":      #d0eaeb,
+        "dark":       #0f0524,
+        "primary":    #c1ddd8,
+        "secondary":  #9ec4c5,
+        "info":       #f5e4dc,
+        "accent1":    #f2c2c2,
+        "accent2":    #e5aebe,
+        "accent3":    #ecc7c6,
+        "success":    #44e16c,
+        "warning":    #fdd759,
+        "danger":     #fa4357,
+);
+$body-bg: map-get($theme-colors, "light");
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
